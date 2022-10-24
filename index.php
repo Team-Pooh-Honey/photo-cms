@@ -8,10 +8,12 @@
   </title>
 </head>
 
+<?php>
 //TODO Clean, comment, work on photo display/functionality
 //Note: Original photo size is 1440 x 900
+?>
 
-<?php> // Get all the post titles from the posts table should display images also
+<?php> // Get all the post titles from the posts table should display images also, build db_connect.php and database
 function getPostTitlesFromDatabase() { 
   include_once './includes/db_connect.php';
   $sql = "SELECT title FROM posts";
